@@ -1,6 +1,6 @@
 # Multifidelity Monte Carlo
 
-A two-level version of MFMC is implemented in `src/two_level_MC.py`. The formulas for the MSE estimation are taken from the paper on MLMC [Krumscheid et al. 2020](https://www.sciencedirect.com/science/article/pii/S0021999120302400), and the implementation is also heavily based on [Peherstorfer et al. 2016](https://doi.org/10.1137/15M1046472).
+A two-level version of MFMC is implemented in `src/two_level_MC.py`. The formulas for the MSE estimation are taken from the paper on MLMC [Krumscheid et al. 2020](https://www.sciencedirect.com/science/article/pii/S0021999120302400) and [Amela et al. 2019](https://zenodo.org/records/3235833), and the implementation is also heavily based on [Peherstorfer et al. 2016](https://doi.org/10.1137/15M1046472).
 
 A paper of MFMC applied to UQ with spent nuclear fuel is under preparation.
 

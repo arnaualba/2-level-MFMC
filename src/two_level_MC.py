@@ -154,7 +154,7 @@ def get_two_level_estimates(ys, ysSurr, ysSurrM,
 
 
 def exaqute_xmc_variance_skewness(Ss, N):
-    # Arnau: I have copied this formula from exaquate-XMC, since it is such a lengthy expression:
+    # This formula is exactly copied from exaquate-XMC (https://zenodo.org/records/3235833), since it is such a lengthy expression:
     # See source of paper and code:
     # Source: MATHICSE technical report 23.2017, table 1, p. 7
     t1 = N ** 2
@@ -251,7 +251,7 @@ def exaqute_xmc_variance_skewness(Ss, N):
     return uglyD0O3E
 
 def exaqute_xmc_combined_variance_skewness(Ss, N):
-    # Arnau: I have copied this formula from exaquate-XMC, since it is such a lengthy expression:
+    # This formula is exactly copied from exaquate-XMC (https://zenodo.org/records/3235833), since it is such a lengthy expression:
     # See source of paper and code:
     # Source: MATHICSE technical report 23.2017, appendix B, p. 28
     t1 = N ** 2
